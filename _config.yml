@@ -7,9 +7,4 @@
 
 theme: jekyll-theme-minimal
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      author: "dekisugi"
+title: "geeko.dev"
