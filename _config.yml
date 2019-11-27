@@ -1,13 +1,15 @@
-lsi: false
-safe: true
-#source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-#exclude: robots.txt
+# GitHub PagesとJekyllについて - GitHub ヘルプ
+# https://help.github.com/ja/github/working-with-github-pages/about-github-pages-and-jekyll
+
+# Configuration | Jekyll • Simple, blog-aware, static sites
+# https://jekyllrb.com/docs/configuration/
+
 
 theme: jekyll-theme-minimal
+
+defaults:
+  -
+    scope:
+      path: ""
+  values:
+    author: "dekisugi"
