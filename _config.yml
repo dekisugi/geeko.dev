@@ -11,5 +11,5 @@ defaults:
   -
     scope:
       path: ""
-  values:
-    author: "dekisugi"
+    values:
+      author: "dekisugi"
