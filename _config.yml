@@ -9,6 +9,7 @@ theme: jekyll-theme-minimal
 
 lang: ja
 title: "geeko.dev"
+author: &author "dekisugi"
 
 markdown: kramdown
 
@@ -21,3 +22,4 @@ defaults:
       path: "" # empty = all
     values:
       layout: default
+      author: *author
