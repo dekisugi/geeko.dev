@@ -1,4 +1,8 @@
-# 永遠に工事中になってそうなほおむぺぇじ
+---
+title: 永遠に工事中になってそうなほおむぺぇじ
+---
+
+# {{ page.title }}
 
 linkのpermanent性は一切保証しません^^;
 
@@ -8,6 +12,6 @@ linkのpermanent性は一切保証しません^^;
 
 
 ## つくったひと
-dekisugi
+{{ page.author }}
 
-[連絡先](https://friend.ship.jp/renraku.html)
+[連絡先](/contacts.html)

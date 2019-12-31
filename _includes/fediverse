@@ -1,0 +1,2 @@
+{%- assign elem = include.id | split: "@" -%}
+<a rel="me" href="https://{{ elem[-1] }}/@{{ elem[-2] }}">{{ include.id }}</a>
