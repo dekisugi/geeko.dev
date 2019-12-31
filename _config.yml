@@ -7,4 +7,17 @@
 
 theme: jekyll-theme-minimal
 
+lang: ja
 title: "geeko.dev"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope: 
+      path: "" # empty = all
+    values:
+      layout: default
