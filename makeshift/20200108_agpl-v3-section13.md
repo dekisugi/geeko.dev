@@ -1,9 +1,52 @@
 ---
-title: 素人が解説！ AGPLv3 第13条
+title: (下書き)素人が解説！ AGPLv3 第13条
 ---
 
 
 # {{ page.title }}
+
+
+## 注意: この記事は執筆中です
+
+完成するかは解りませんし、あるいは1から書き直すかもしれません。  
+そして1月12日からは初場所と。放置フラグじゃん^^;
+
+何かしらツッコミがありましたら[このトゥートへリプライを生やして](https://mstdn.maud.io/@dekisugi/103448423535397788)くださると助かります。[他の連絡手段](/contacts.html)でも構いませんが。
+
+
+## 執筆中ということで、良さそうな文献リンク集
+
+- [ネットワーク分散型ソフトウェアを想定したFSFライセンスのリリース \| OSDN Magazine](https://mag.osdn.jp/07/11/22/0144209) 
+  - 「ライセンスを特徴付ける規定」の項を読むだけでも、AGPLv3に対して強くなれると思います。
+- [GNU GPL v3 逐条解説書（第1版）][GPLv3解説書]
+  - これを超えるGPLv3に関する日本語文献があったら教えろくださいって感じ。
+  - GPLv3とAGPLv3はほとんど同じなので…
+    - 数%追記すればAGPLv3に関する最強の日本語文献が出来上がる！
+      - ので差分を作ってほしかった…
+        - 無いなら自分で作ろう？
+      - 実はAGPLv3も軽く取り上げられているし、和訳も載っている。
+      - たとえAGPLv3第13条第1パラグラフへの解説が不十分でも、今の時点で既にAGPLv3に関しても最強の日本語文献なんじゃないだろうか？
+        - AGPLv3第13条第2パラグラフについては、GPLv3第13条第1パラグラフの説明を読めば足りる[^section13]。
+  - なお、まだ読んでません^^;
+    - つまみ食いしただけ。
+- [GNU公式サイト](https://www.gnu.org/)
+  - [GNUライセンスに関してよく聞かれる質問](https://www.gnu.org/licenses/gpl-faq.ja.html)
+    - [Frequently Asked Questions about the GNU Licenses](https://www.gnu.org/licenses/gpl-faq.en.html)
+  - [www.gnu.orgのウェブページを翻訳するガイド](https://www.gnu.org/server/standards/README.translations.html)
+  - [GNUプロジェクトの理念](https://www.gnu.org/philosophy/philosophy.html)
+- [AGPLv3]
+  - [mhatta訳]
+
+## 筆者のトゥートを適当に並べる
+
+もうこのページ、ただのメモじゃん？…最初からそうだったわ^^;
+
+- [GPLのソフトをネットで公開しても、ソースの公開は求められた時にその人にだけすればいいんだって！　GPLv3「ダメです」　GPLv2「アリかもしれない。ただし…」](https://mstdn.maud.io/@dekisugi/103459571674064880)
+- [このページで言いたかったことを1トゥートにまとめてみた奴](https://mstdn.maud.io/@dekisugi/103459579915927910)
+- [姉弟子](https://mstdn.maud.io/@dekisugi/103459663869286934)
+
+
+## 前書き？
 
 > ソースよこせ、ソース嫁の精神、今こそ大事にしたい。  
 > #インターネット老人会
@@ -15,7 +58,7 @@ title: 素人が解説！ AGPLv3 第13条
 
 ## 我らがIPA
 
-> AGPLv3 の内容は、第 13 条以外は GPLv3 と全く同じである。[^IPA]
+> AGPLv3 の内容は、第 13 条以外は GPLv3 と全く同じである。[^IPA][^section13]
 
 やっぱり……そうか……　　
 そうかなとは……思ってたんだけど……
@@ -41,7 +84,7 @@ title: 素人が解説！ AGPLv3 第13条
 
 に該当する場合は、
 
-> all users interacting with it remotely through a computer network[^AGPLv3]  
+> all users interacting with it remotely through a computer network[^AGPLv3][^interacting]  
 > コンピュータネットワークにより遠隔交信する全てのユーザ[^dekisugi]
 
 に対して、
@@ -92,6 +135,10 @@ GPLv3のままというよりも、元に戻せるAGPLv3化と考えた方が理
 [^mhatta]: [GNU Affero 一般公衆利用許諾書 (八田真行氏による非公式な日本語訳)][mhatta訳]
 
 [^komakexekotaxaiindayo]: 上記説明は細かいところをすっ飛ばしてますが、現時点においてこれ以上の説明を求められると、正直苦しい。
+
+[^section13]: メモ: GPLv3第13条第1パラグラフと、AGPLv3第13条第2パラグラフとは、4分の3くらい一致しているようだ。違うのはライセンス名と、最後の方だけである。
+
+[^interacting]: [「interacting」の定義についてのトゥート](https://mstdn.maud.io/@dekisugi/103459623720418812)
 
 
 [AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.en.html "GNU Affero General Public License (Version 3)"
