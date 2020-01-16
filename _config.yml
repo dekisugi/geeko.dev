@@ -15,6 +15,7 @@ markdown: kramdown
 
 kramdown:
   input: GFM
+  auto_ids: false # It is evil that this config is true by default. Holy shit.
 
 defaults:
   -
