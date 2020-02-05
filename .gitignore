@@ -1,0 +1,27 @@
+# https://www.netlify.com/blog/2016/03/08/a-step-by-step-guide-nanoc-on-netlify/#2-create-gitignore-file
+# Default location for output defined in config.yaml
+output/
+# Temporary file directory
+tmp/
+# Crash Log
+crash.log
+
+# Backup File
+*~
+
+# https://github.com/github/gitignore/blob/5f35f30b0490bcf5f018451af1e99be3b1478278/Global/Kate.gitignore
+.*.kate-swp
+.swp.*
+
+# https://github.com/github/gitignore/blob/4f7062e132d7f88e68ab737e64fef872bd3a491f/Global/Linux.gitignore
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# .git/
+.git/
+
+# gem
+Gemfile.lock
+
