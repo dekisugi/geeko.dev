@@ -2,21 +2,21 @@
 title: 連絡先・SNSアカウント一覧
 ---
 
-# {{ page.author }}の{{ page.title }}
+# dekisugiの連絡先・SNSアカウント一覧
 
 ## 電子メール「dekisugi_bbs2ch＠やふー.co.jp」
   1. HTMLメールは受け取れません
   2. 添付ファイルも受け取れません
 
-## {% include fediverse id="@dekisugi@mstdn.maud.io" %}
+## <a rel="me" href="https://mstdn.maud.io/@dekisugi">@dekisugi@mstdn.maud.io</a>
   - 令和元年05月01日登録
   - 同10月頃より、こちらをメインにしています
 
-## {% include fediverse id="@dekisugi@mstdn.jp" %}
+## <a rel="me" href="https://mstdn.jp/@dekisugi">@dekisugi@mstdn.jp</a>
   - 平成30年10月18日登録
   - 一応見てますよ
 
-## {% include fediverse id="@dekisugi@fedibird.com" %}
+## <a rel="me" href="https://fedibird.com/@dekisugi">@dekisugi@fedibird.com</a>
   - 令和元年12月31日登録
 
 ## ~~[Twitter@yokeruhari](https://twitter.com/yokeruhari)~~
