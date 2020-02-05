@@ -12,12 +12,12 @@ title: 連絡先・SNSアカウント一覧
   - 令和元年05月01日登録
   - 同10月頃より、こちらをメインにしています
 
+## <a rel="me" href="https://fedibird.com/@dekisugi">@dekisugi@fedibird.com</a>
+  - 令和元年12月31日登録
+
 ## <a rel="me" href="https://mstdn.jp/@dekisugi">@dekisugi@mstdn.jp</a>
   - 平成30年10月18日登録
   - 一応見てますよ
-
-## <a rel="me" href="https://fedibird.com/@dekisugi">@dekisugi@fedibird.com</a>
-  - 令和元年12月31日登録
 
 ## ~~[Twitter@yokeruhari](https://twitter.com/yokeruhari)~~
   - もう見てません
