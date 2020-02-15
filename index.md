@@ -11,6 +11,8 @@ linkのpermanent性は一切保証しません^^;
 - [NSFW速報：夕イム口ー夕ーを作った作りたかった^^;](/makeshift/20191209_timerotor/)
 - [(下書き)AGPLv3について(殴り書き)](/makeshift/20200108_agpl-v3-section13.html)
 
+- [\[デジタル時計\] カスタム日付書式 for plasma-workspace v5.12.8](/one/2020/02/16/plasma-digital-clock/)
+
 
 ## つくったひと
 {{ page.author }}
