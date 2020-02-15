@@ -13,7 +13,7 @@ date: 2020-02-16 04:48:11 +0900
 ![2020年2月16日日曜日](long-date.png)
 
 :satisfied:
-![20202/02/16(日)](custom-date.png)
+![2020/02/16(日)](custom-date.png)
 
 
 ## openSUSE Leap 15.1 へのインストール
