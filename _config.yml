@@ -22,5 +22,5 @@ defaults:
     scope: 
       path: "" # empty = all
     values:
-      layout: with-date
+      layout: default
       author: *author
