@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% if page.date or page.created_at or page.updated_at -%}
+
+  <div id="timespamp">
+
+    {%- if page.created_at -%}
+      <p>作成: <time>{{ page.created_at | date: '%Y-%m-%d' }}</time></p>
+    {%- elsif page.date -%}
+      <p>日付: <time>{{ page.date | date: '%Y-%m-%d' }}</time></p>
+    {%- endif -%}
+
+    {%- if page.updated_at -%}
+      <p>更新: <time>{{ page.updated_at | date: '%Y-%m-%d' }}</time></p>
+    {%- endif -%}
+
+  </div>
+
+{%- endif %}
+
+{{content}}
