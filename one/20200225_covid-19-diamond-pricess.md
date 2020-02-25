@@ -79,10 +79,10 @@ COVID-19はマスメディアが今一番注力していることで、関心を
 >
 > これは感染症のプロが見たら、悶絶するぐらいの恐ろしいことです。
 >
-> <footer itemscope itemtype="http://schema.org/Date">
-> 「<cite><a href="https://www.buzzfeed.com/jp/naokoiwanaga/covid-19-iwata" rel="nofollow">ダイヤモンド・プリンセス号に乗船した感染症専門医　「感染しても不思議じゃない悲惨な状況」</a></cite>」<br>
+> <div itemscope itemtype="http://schema.org/Date">
+> 「<cite><a href="https://www.buzzfeed.com/jp/naokoiwanaga/covid-19-iwata" rel="nofollow">ダイヤモンド・プリンセス号に乗船した感染症専門医　「感染しても不思議じゃない悲惨な状況」</a></cite>」
 > 『<span>BuzzFeed</span>』(<span><time itemprop="datePublished">2020-02-19 14:09</time>公開</span>、<span><time itemprop="dateModified">2020-02-20 08:38</time>更新</span>)。<span><time itemprop="dateRead">2020-02-24</time>閲覧</span>。
-> </footer>
+> </div>
 
 うん…まあ…これ読んだら私も衝撃を受けますよ。ここは安全と言われた[^ittenai]場所に、感染していることがはっきり判っている人が居たのだと。そして現場はその状況を何とも思っていないのだと。岩田氏は感想を交えつつ、船内の様子について具体的に語っている。なので第三者の私でも、船内の映像がそれなりに想像できる。それを以て、「頑張りが足りない」と言える。
 
@@ -100,10 +100,10 @@ COVID-19はマスメディアが今一番注力していることで、関心を
 >船内の区域管理（ゾーニング）が適切に実施（※）されているかを含め、船内の感染管理について、感染制御支援チームの医師が船内のコンサルテーション及びラウンドを連日実施し、指摘された点はすべてその日のうちに対応を行ってきました。  
 > （※）検体採取等で汚染したガウン等の感染防具を脱ぐゾーンは設けられ、その他の業務区域と明確に分離されています。
 >
-> <footer itemscope itemtype="http://schema.org/Date">
+> <div itemscope itemtype="http://schema.org/Date">
 > 「<cite><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_09646.html" rel="nofollow">クルーズ船「ダイヤモンド・プリンセス号」内の感染制御策について</a></cite>」
 > 『<span>厚生労働省</span>』(<span><time itemprop="datePublished">2020-02-20</time>公開</span>)。<span><time itemprop="dateRead">2020-02-24</time>閲覧</span>。
-> </footer>
+> </div>
 
 困った。<q cite="https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_09646.htm">感染防具を脱ぐゾーン</q>は分離されているらしいが、他の個所についてきちんと区分けされているのかが書かれていない。
 
@@ -119,10 +119,10 @@ COVID-19はマスメディアが今一番注力していることで、関心を
     <aside>
     <blockquote>
     <p>私が聞いた範囲ということでしか説明できませんけれども、まさに２つ入り口があった写真があったと思いますけれども、あの右側を搬送といわゆるフル装備をしている方が、あそこで全部着脱をしていただいて、そしてきれいにしていただいて、そこから次の奥にあった扉から外に出ていく。そうでない方はこっちの入り口を通ってそのまま出ていくと。</p>
-    <footer itemscope itemtype="http://schema.org/Date">
+    <div itemscope itemtype="http://schema.org/Date">
     「<cite><a href="https://www.mhlw.go.jp/stf/kaiken/daijin/0000194708_00213.html" rel="nofollow"><time itemprop="dateCreated" datetime="2020-02-21">令和2年2月21日付</time>大臣会見概要</a></cite>」
     『<span>厚生労働省</span>』(<span><time itemprop="datePublished">2020-02-25</time>公開</span>)。<span><time itemprop="dateRead">2020-02-25</time>閲覧</span>。
-    </footer>
+    </div>
     </blockquote>
     <p>この加藤厚労大臣の話が事実だと仮定するならば、<a href="https://www.itmedia.co.jp/news/articles/2002/20/news123.html">副大臣の上げた例の写真</a>の場所が<q cite="https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_09646.htm">感染防具を脱ぐゾーン</q>ということなのだろうか。聞いた話なのでいまいち信用してませんが。</p>
     </aside>
