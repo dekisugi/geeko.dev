@@ -2,7 +2,7 @@
 title: 落ち着いてからでもいい。ダイヤモンド・プリンセス号の中を見た人は、第三者が頭の中で船内を描画できるような情報を教えてほしい。
 lang: ja
 markdown: kramdown
-permalink: /one/2020/02/24/covid-19-diamond-pricess/
+permalink: /one/2020/02/25/covid-19-diamond-pricess/
 drafted_at: 2020-02-24+09:00
 created_at: 2020-02-25T23:17+09:00
 ---
