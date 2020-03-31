@@ -21,7 +21,3 @@ title: 連絡先・SNSアカウント一覧
   - 平成30年10月18日登録
   - 一応見てますよ
   - notestockには登録していますが公開していません。
-
-## ~~[Twitter@yokeruhari](https://twitter.com/yokeruhari)~~
-  - もう見てません
-  - [アカウント消されないように](https://japanese.engadget.com/2019/11/27/twitter/)年に数回だけ見るかもしれない
