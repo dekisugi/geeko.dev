@@ -4,7 +4,7 @@ title: 永遠に工事中になってそうなほおむぺぇじ
 
 # {{ page.title }}
 
-linkのpermanent性は一切保証しません^^;
+linkのpermanent性は(仮設なので)一切保証しません^^;
 
 - [シーサイドライン逆走事故](/makeshift/201909_seasideline.md)
 - [GitHub Pages＆Jykyllでサイト名を設定する方法](/makeshift/github-pages-and-jekyll.md)
