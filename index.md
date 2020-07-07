@@ -15,6 +15,8 @@ linkのpermanent性は(仮設なので)一切保証しません^^;
 - [生活必需品を扱うお店を閉鎖する気など更々無い人たち × スーパーに行くのは不要不急の外出であると思う人たち ＝ 買い溜め](/one/2020/03/27/kaidame/)
 - [市販のイブプロフェン単味剤リスト(2020年6月現在)](/one/2020/06/20/ibuprofen/)
 
+- [自作検索プラグイン](http://dekisugi.github.io/firefox-search-plugin/)
+
 ページのタイムスタンプはとりあえず[GitHubのリポジトリ](https://github.com/dekisugi/dekisugi.github.io)を覗いてください。そのうちなんとかします…
 
 
