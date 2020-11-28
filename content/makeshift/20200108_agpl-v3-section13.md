@@ -6,7 +6,7 @@ kind: article
 ---
 
 
-# {{ page.title }}
+# (下書き)素人が解説！ AGPLv3 第13条
 
 
 ## 注意: この記事は執筆中です
