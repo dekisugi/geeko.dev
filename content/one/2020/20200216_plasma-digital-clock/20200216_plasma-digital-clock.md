@@ -1,6 +1,6 @@
 ---
-title: [デジタル時計] カスタム日付書式 for plasma-workspace v5.12.8
-date: 2020-02-16 04:48:11 +0900
+title: '[デジタル時計] カスタム日付書式 for plasma-workspace v5.12.8'
+created_at: 2020-02-16T04:48:11+0900
 ---
 # [デジタル時計] カスタム日付書式 for plasma-workspace v5.12.8
 

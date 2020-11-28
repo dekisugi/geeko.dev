@@ -1,5 +1,8 @@
 ---
 title: (下書き)素人が解説！ AGPLv3 第13条
+created_at: 2020-01-09T00:20:34+0900
+updated_at: 2020-01-11T03:03:09+0900
+kind: article
 ---
 
 

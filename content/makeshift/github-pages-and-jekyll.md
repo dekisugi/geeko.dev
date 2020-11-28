@@ -2,6 +2,7 @@
 title: GitHub Pages＆Jekyllでサイト名を設定する方法
 created_at: 2019-11-27T20:05:15Z
 updated_at: 2020-02-22T01:41+0900
+kind: article
 ---
 
 # たかだかサイト名設定するのにどんだけ時間かかってんだって話
