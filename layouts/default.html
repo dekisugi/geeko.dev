@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="<%= @item[:lang] || @config[:lang] %>">
+  <head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Bad Apple -->
+    <link rel="stylesheet" href="/style/trfp.css">
+
+    <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
+  </head>
+  <body>
+    <header id="site-header">
+      <div id="site-name">
+        <a href="<%= @config[:base_url] %>"><%= @config[:site_name] %></a>
+      </div>
+    </header>
+    <main id="main">
+      <%= yield %>
+    </main>
+    <footer id="site-footer">
+      <% if @config[:hosted_on] and @config[:hosted_on_url] %>
+        <div id="hosted-on">
+          <p>このサイトは <a href="<%= @config[:hosted_on_url] %>"><%= @config[:hosted_on] %></a> によってホストされています。</p>
+        </div>
+      <% end %>
+      <address id="site-admin">
+        <p>このサイトは <a href="<%= @config[:contact_href] %>"><%= @config[:webmaster] %></a> が管理しています。</p>
+      </address>
+      <p><a href="/about/">このサイトについて(法的事項)</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+# A list of file extensions that Nanoc will consider to be textual rather than
+# binary. If an item with an extension not in this list is found,  the file
+# will be considered as binary.
+text_extensions: [ 'adoc', 'asciidoc', 'atom', 'coffee', 'css', 'erb', 'haml', 'handlebars', 'hb', 'htm', 'html', 'js', 'less', 'markdown', 'md', 'ms', 'mustache', 'php', 'rb', 'rdoc', 'sass', 'scss', 'slim', 'tex', 'txt', 'xhtml', 'xml' ]
+
+prune:
+  auto_prune: true
+
+data_sources:
+  - type: filesystem
+    encoding: utf-8
+
+site_name: Workable Garbage Dump
+base_url: /
+lang: ja
+
+webmaster: 出来杉君
+contact_href: /contacts.html
+github_account: dekisugi
+
+environments:
+  default:
+    hosted_on: LOCALHOST
+    hosted_on_url: http://localhost/
+  netlify:
+    hosted_on: Netlify
+    hosted_on_url: https://www.netlify.com/
+  ghpages: 
+    hosted_on: GitHub Pages
+    hosted_on_url: https://pages.github.com/
