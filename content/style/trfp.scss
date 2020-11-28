@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/* AUTHOR: dekisugi (https://geeko.dev/) */
+
+@viewport {
+  width: extend-to-zoom;
+  zoom: 1;
+}
+
+@import "rouge/rouge.css";
+
+* {
+  max-width: 100%;
+  height: auto;
+  /* これらは<img>を念頭に置いてだっけ？ */
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+body {
+  background-color: #fffbf5;
+  color: black;
+  margin: 0;
+  line-height: 1.2;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+#site-header {
+  color: darkgreen;
+  background-color: palegreen;
+  border-bottom-style: solid;
+  border-color: darkgreen;
+  border-width: 0.3em;
+  padding: 1em;
+}
+
+#site-header a:any-link {
+  color: currentcolor;
+  /* 許してくりゃれ… */
+}
+
+#site-name {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@media all and (max-width: 30em) {
+  #site-name {
+    font-size: 1.5em;
+  }
+}
+
+#site-footer {
+  border-top-style: solid;
+  border-color: forestgreen;
+  border-width: 0.3em;
+  padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  border-top-style: solid;
+  border-width: 0.15em;
+  border-color: maroon;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 70em;
+  padding: 1em;
+}
+
+code, pre {
+  background-color: #fff9e7;
+  border-style: solid;
+  border-color: maroon;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+@media print {
+  pre {
+    white-space: pre-wrap;
+  }
+}
+
+pre code {
+  background-color: transparent;
+  border-style: none;
+}
+
+q, blockquote {
+  border-style: dashed;
+  border-color: #777;
+  background-color: #eee;
+}
+
+q, code {
+  border-width: 0.1em;
+}
+
+pre, blockquote {
+  padding: 0.15em;
+  border-width: 0.15em;
+}
+
+pre, blockquote, div.highlight {
+  min-width: 30vw;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+q:lang(en) {
+  quotes:  "“"  "”"  "‘"  "’" ;
+}
+
+q:lang(ja) {
+  quotes:  "「"  "」"  "『"   "』" ;
+}
+
+em {
+  text-decoration: underline wavy;
+  font-style: normal;
+}
+
+blockquote footer {
+  text-align: end;
+}
+
+/* 脚注が脚注であることはw3mでも判るようにすべきなんだけれど。kramdown使うの辛いなぁ… */
+.footnotes {
+  border-style: double;
+  border-width: 0.3em;
+  border-color: maroon;
+}
+
+/* 今の所、レスポンシブにしなきゃいけない個所はほとんど無い^^;
+@media all and (max-width: 720px) {
+  body {
+    width: unset;
+    word-break: break-word;
+  }
+}
+*/
