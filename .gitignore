@@ -25,3 +25,5 @@ crash.log
 # gem
 Gemfile.lock
 
+# Sass
+.sass-cache/
