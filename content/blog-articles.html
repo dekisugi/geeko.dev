@@ -1,0 +1,27 @@
+---
+title: ブログ記事一覧
+---
+
+<h1>ブログ記事一覧</h1>
+
+<ul>
+  <% sorted_articles.each do |article| %>
+    <li>
+      <%
+        require 'date'
+        created_at = Date.parse(article[:created_at].to_s)
+        if article[:updated_at]
+          updated_at = Date.parse(article[:updated_at].to_s)
+        end
+      %>
+
+      <%= created_at.to_s %>
+
+      <%= link_to article[:title] || '(無名記事)', article.path %>
+
+      <% if updated_at %>
+        (<%= updated_at.to_s %>更新)
+      <% end %>
+    </li>
+  <% end %>
+</ul>
