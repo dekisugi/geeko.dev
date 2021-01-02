@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 blog = %r{/one/.*(?<y>[0-9]{4})-?(?<m>[0-9]{2})-?(?<d>[0-9]{2})_(?<s>[0-9A-Za-z_-]+)}
-blog_article = %r{\A#{blog}\.(?:html|md)\z}
+blog_article = %r{\A#{blog}\.\w+\z} # 別にこれ拡張子指定しなくても問題ねぇっぺ
 blog_attach = %r{\A#{blog}/(?<a>(?<w>[^/]+?)(?:\.[^/.]+)?)\z}
 
 preprocess do
@@ -17,13 +17,21 @@ preprocess do
   end
 end
 
-compile '/**/*.{html,md}' do
+compile '/**/*.{html,md,adoc}' do
   ext = item.identifier.ext
 
   # frontmatterにtitleが存在している場合のみ中身を加工する
   # (本当はfrontmatterが存在するかどうかを確認したいんだけれど、簡便な方法が思いつかない)
   if item.key?(:title) then
     filter :kramdown, input: 'GFM', auto_ids: false if item.identifier.ext == 'md'
+
+    asciidoctor_attributes = {
+      'sectids' => false,
+      'showtitle' => true,
+      'toc' => 'auto',
+      'toc-title' => '目次',
+    }
+    filter :asciidoctor, attributes: asciidoctor_attributes if item.identifier.ext == 'adoc'
 
     locals = Hash.new('')
     locals['title'] = item[:title] + ' - ' if item[:title]
