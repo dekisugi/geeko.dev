@@ -7,7 +7,7 @@ blog_attach = %r{\A#{blog}/(?<a>(?<w>[^/]+?)(?:\.[^/.]+)?)\z}
 preprocess do
   items.each do |item|
     if blog_article.match(item.identifier.to_s) then
-      item[:kind] = 'article'
+      item[:kind] = 'article' unless item.key?(:kind)
 
       # 私はね、性的サイトジェネレータのルールに縛られるのが嫌だからね、こうやって独自のディレクトリ構造を採用してるんですよ。それなのにね、created_atが無ければ作成日が解らんと。そんなもんファイル名に書いてあるじゃないですか。Nanocさんが勝手に読めばいいじゃないですか。なんで私がこんなコード書かなならんのですか。結局縛られてるじゃないですか。
       unless item[:created_at] then
