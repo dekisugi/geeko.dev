@@ -16,6 +16,19 @@
       </div>
     </header>
     <main id="main">
+      <div id="article-timestamp" itemscope itemtype="http://schema.org/Article">
+
+        <% if defined? created_at %>
+          <span id="article-created-at"><time itemprop="dateCreated"><%= created_at %></time>公開</span>
+        <% end %>
+
+        <% if defined? updated_at %>
+          <span id="article-updated-at"><time itemprop="dateModified"><%= updated_at %></time>更新</span>
+        <% end %>
+
+        <a id="article-revision-link" href="<%= sprintf(@config[:revision_url], '/content' + item.identifier.to_s) %>">更新履歴</a>
+      </div>
+
       <%= yield %>
     </main>
     <footer id="site-footer">

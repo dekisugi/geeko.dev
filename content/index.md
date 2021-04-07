@@ -7,8 +7,6 @@ title: null
 - [ブログのようなもの](/one/)
 - [自作検索プラグイン](http://dekisugi.github.io/firefox-search-plugin/)
 
-ページのタイムスタンプはとりあえず[GitHubのリポジトリ](https://github.com/dekisugi/geeko.dev)を覗いてください。そのうちなんとかします…
-
 
 ## つくったひと
 出来杉君

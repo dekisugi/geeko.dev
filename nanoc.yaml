@@ -18,6 +18,8 @@ webmaster: 出来杉君
 contact_href: /contacts.html
 github_account: dekisugi
 
+revision_url: 'https://github.com/dekisugi/geeko.dev/commits/master%s'
+
 environments:
   default:
     hosted_on: LOCALHOST

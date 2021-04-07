@@ -37,6 +37,10 @@ compile '/**/*.{html,md,adoc}' do
     locals['title'] = item[:title] + ' - ' if item[:title]
     locals['title'] += config[:site_name]
 
+    require 'date'
+    locals['created_at'] = Date.parse(item[:created_at].to_s).to_s if item.key?(:created_at)
+    locals['updated_at'] = Date.parse(item[:updated_at].to_s).to_s if item.key?(:updated_at)
+
     layout '/default.html', locals: locals
 
     # ブログ記事一覧生成用
